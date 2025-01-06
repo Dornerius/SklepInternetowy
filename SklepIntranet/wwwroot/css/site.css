@@ -17,6 +17,20 @@ html {
   min-height: 100%;
 }
 
+.background-image {
+    position: fixed;
+    z-index: -1;
+    opacity: 0.3;
+    width: auto;
+    height: auto;
+    max-height: 100vh;
+    pointer-events: none;
+}
+
 body {
-  margin-bottom: 60px;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
 }
